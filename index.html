@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abby</title>
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/desktop.css">
+
+    <link rel="shortcut icon" type="image" href="./media-luna.png">
+</head>
+<body>
+    <header class="header">
+        <h3 class="header__titulo">Abby Carrillo</h3>
+    </header>
+
+    <main>
+        <section class="heroe"> <!--primera seccion-->
+            <div class="heroe__info">
+                <h1 class="heroe__titulo">Hola mundo</h1>
+                <p class="heroe__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Sed, quae laboriosam? Vero, saepe dolores expedita 
+                     blanditiis magni maxime dolore. Asperiores incidunt 
+                     pariatur corrupti dolores unde dolorem modi eum soluta ipsum. Lorem ipsum, 
+                     dolor sit amet consectetur adipisicing elit. Vel totam molestiae odit! 
+                     Animi cumque consequuntur unde est tenetur debitis assumenda magnam, quidem 
+                     minus, vel dignissimos vitae quaerat accusantium recusandae veritatis.</p>
+                <div class="heroe__botones"> <!--botones-->
+                    <a class="boton boton--rojo" href="">Descargar curriculum</a>
+                    <a class="boton boton--blanco" href="aformulario">Contactame</a>
+                </div>
+            </div >
+            <figure class="heroe__perfil">
+                <img class="heroe__img" src="Yo.jpeg">
+            </figure>
+        </section>
+            
+        <section class="experiencia"> <!--segunda seccion -->
+            <h2 class="experiencia__titulo">Experiencia</h2>
+            <div class="experiencia__objeto">
+                <h3 class="experiencia-objeto__titulo">Java</h3>
+                <p class="experiencia-objeto__texto">texto</p>
+            </div>
+            <div class="experiencia__objeto">
+                <h3 class="experiencia-objeto__titulo">Editora de videos</h3>
+                <p class="experiencia-objeto__texto">texto</p>
+            </div>
+            <div class="experiencia__objeto">
+                <h3 class="experiencia-objeto__titulo">Ligthroom</h3>
+                <p class="experiencia-objeto__texto">texto</p>
+            </div>
+        </section>
+
+        <form class="formulario" action="mailto:abby25039@hotmail.com" id="formulario">
+            <h2 class=" formulario__titulo">Contacto</h2>
+            <input class="formulario__mensaje" name="subject" placeholder="Asunto"  type="text" required>
+            <textarea class="formulario__asunto" name="body" placeholder="Mensaje" required></textarea>
+            <button class="boton boton--rojo" type="submit">enviar</button>
+        </form>
+
+    </main>
+
+    <footer class="footer">
+        <div class="fotter__derechos">
+            <p class="footer__texto">
+                2022 Abby Carrillo
+           </p>
+        </div>
+        <div class="footer__redes"> 
+            <figure class="footer__social-contenedor">
+                <a class= "fotter__link" href="">
+                    <img class="footer___imagen"  src="" alt="">
+                </a>
+            </figure>
+            <figure class="footer__social-contenedor">
+                <a class= "fotter__link" href="">
+                    <img class="footer___imagen" src="" alt="">
+                </a>
+            </figure>
+            <figure class="footer__social-contenedor">
+                <a class= "fotter__link" href="">
+                    <img class="footer___imagen "src="" alt="">
+                </a>
+            </figure>
+        </div>
+    </footer>
+</body>
+</html>
